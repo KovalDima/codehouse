@@ -1,0 +1,38 @@
+.about {
+  padding: 70px 0;
+  background: $white;
+}
+
+.about__wrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1.2fr 3fr;
+  gap: 70px;
+}
+
+.about__img {
+  min-width: 320px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.about__content {
+  &--top {
+    height: fit-content;
+  }
+  &--bottom {
+    grid-column: 2;
+    margin-top: -285px;
+  }
+}
+
+.about__name {
+  font-family: "Russo One";
+  font-size: 40px;
+}
+
+.about__descr {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}

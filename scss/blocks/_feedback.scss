@@ -1,0 +1,98 @@
+.feedback {
+  padding: 60px 0;
+  background: $white;
+  overflow: hidden;
+  h2 {
+    line-height: 0.9;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+}
+
+.feedback-page {
+  .feedback {
+    padding: 0;
+  }
+  .feedback__content {
+    background: $white;
+    padding: 40px 0;
+  }
+  .feedback__wrapper {
+    columns: 2;
+    column-gap: 30px;
+  }
+  .feedback__item {
+    break-inside: avoid;
+    margin-bottom: 30px;
+  }
+}
+
+.feedback__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.feedback__slider {
+  margin-right: calc(50% - 50vw);
+  margin-bottom: 37px;
+}
+
+.feedback__item {
+  background: #fff;
+  border-radius: 4px;
+  padding: 40px;
+  height: 100%;
+}
+
+.feedback__item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feedback__item-name {
+  font-family: "Russo One";
+  font-size: 20px;
+  padding-left: 55px;
+  position: relative;
+  &::before {
+    content: "";
+    width: 39px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../images/slide-1.jpg);
+  }
+}
+
+.feedback__item-link {
+  color: $black;
+  line-height: 1.1;
+  border-bottom: 1px solid $black;
+  &:hover {
+    color: $black;
+  }
+}
+
+.feedback__item-rating {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.feedback__btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .swiper-button-disabled {
+    opacity: 0;
+    visibility: hidden;
+    user-select: none;
+  }
+}

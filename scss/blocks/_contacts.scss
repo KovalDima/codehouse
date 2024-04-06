@@ -1,0 +1,23 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  max-width: 260px;
+  width: 100%;
+}
+
+.contacts__tel,
+.language__link {
+  color: $white;
+  font-size: 20px;
+  &:hover {
+    color: $white;
+  }
+}
+
+.submenu {
+  .language__link {
+    padding-right: 20px;
+  }
+}

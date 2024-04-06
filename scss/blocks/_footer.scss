@@ -1,0 +1,28 @@
+.footer {
+  padding: 40px 0;
+  .menu {
+    .submenu {
+      top: -7.8em;
+    }
+  }
+  .submenu {
+    top: -1.8em;
+  }
+  .has-submenu {
+    &::after {
+      transform: rotateX(180deg);
+    }
+    &:hover {
+      &::after {
+        transform: rotateX(0deg);
+      }
+    }
+  }
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}

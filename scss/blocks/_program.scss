@@ -1,0 +1,39 @@
+.program {
+  padding: 40px 0;
+  background: $white;
+  h2 {
+    font-size: 40px;
+    span {
+      display: none;
+    }
+  }
+  h3 {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+}
+
+.program__wrapper {
+  background: #fff;
+  border-radius: 4px;
+  padding: 50px;
+}
+
+.program__list {
+  list-style: decimal-leading-zero;
+  padding-left: 30px;
+  margin-bottom: 40px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  li {
+    margin-bottom: 12px;
+    &::marker {
+      font-size: 16px;
+      color: rgba($color: #262626, $alpha: 0.6);
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

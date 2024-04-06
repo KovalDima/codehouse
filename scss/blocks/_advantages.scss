@@ -1,0 +1,28 @@
+.advantages {
+  padding: 70px 0 80px;
+  background: $white url(../images/advantages_bg.svg) top 125% right/30%
+    no-repeat;
+}
+
+.advantages__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.advantages__item {
+  padding: 30px 40px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.advantages__item-caption {
+  font-family: "Russo One";
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.advantages__item-descr {
+  opacity: 0.7;
+  font-size: 19px;
+}

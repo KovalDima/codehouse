@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Курсы Frontend онлайн. CodeHouse</title>
+    <link rel="shortcut icon" href="icons/android-chrome-192x192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body class="main-page">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="/" class="logo">
+            <img
+              src="icons/codehouse.svg"
+              width="170"
+              height="24"
+              alt="логотип CodeHouse Курсы Frontend Обучение фронтенд"
+              class="logo__img"
+            />
+          </a>
+          <nav class="menu menu--js">
+            <ul class="menu__list">
+              <li class="menu__item has-submenu">
+                <span class="menu__link menu__link--accordion">Программа</span>
+                <ul class="submenu">
+                  <li class="submenu__item">
+                    <a href="full-course.html" class="submenu__link"
+                      >Полный курс</a
+                    >
+                  </li>
+                  <li class="submenu__item">
+                    <a href="html-css.html" class="submenu__link"
+                      >Верстка Html, Css, Git</a
+                    >
+                  </li>
+                  <li class="submenu__item">
+                    <a href="js-react.html" class="submenu__link"
+                      >JS + React.js</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a href="feedback.html" class="menu__link">Отзывы</a>
+              </li>
+              <li class="menu__item">
+                <a href="questions.html" class="menu__link">Вопросы</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <a href="tel:+380733202836" class="contacts__tel">073 320 2836</a>
+            <ul class="language has-submenu">
+              <li class="language__item">
+                <span class="language__link">Рус</span>
+                <ul class="submenu">
+                  <li class="language__item">
+                    <a href="index-uk.html" class="language__link">Укр</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="burger burger--js">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="promo">
+        <div class="container">
+          <div class="promo__wrapper">
+            <div class="promo__content">
+              <div class="promo__captions">
+                <span class="promo__caption">онлайн</span
+                ><span class="promo__caption">группа или индивидуально</span
+                ><span class="promo__caption">занятие 2 часа</span
+                ><span class="promo__caption">3 р/неделю</span>
+              </div>
+              <h1>Курсы Frontend developer</h1>
+              <p class="promo__descr">
+                Научишься работать с html5, css3, javascript, react.js, git,
+                <br />bootstrap, scss, gulp
+              </p>
+            </div>
+            <form id="form" action="#" class="form border form--js">
+              <p class="form__title">Получить бесплатную консультацию</p>
+              <input
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                class="form__input required"
+              />
+              <input
+                type="text"
+                name="phone"
+                value="+380"
+                placeholder="Ваш номер"
+                class="form__input required tel"
+              />
+              <button type="submit" class="btn btn--form">
+                Перезвоните мне
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="promo__info">
+          <div class="container">
+            <div class="promo__info-wrapper">
+              <div class="promo__info-item">
+                <span class="icon icon-payments"></span>
+                <p class="promo__info-descr">14 000 грн</p>
+                <p>при полной оплате курса</p>
+              </div>
+              <div class="promo__info-item">
+                <span class="icon icon-sentiment_satisfied"></span>
+                <p class="promo__info-descr">6-8 человек</p>
+                <p>в группе</p>
+              </div>
+              <div class="promo__info-item">
+                <span class="icon icon-date"></span>
+                <p class="promo__info-descr">16 недель</p>
+                <p>весь курс</p>
+              </div>
+              <div class="promo__info-item">
+                <span class="icon icon-schedule"></span>
+                <p class="promo__info-descr">96 часов</p>
+                <p>весь курс</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="group">
+        <div class="container">
+          <h2>Групповые занятия</h2>
+          <div class="group__items">
+            <div class="group__item group__item_black">
+              <div class="group__item-head">
+                <p>14 000 ₴</p>
+                <p>96 часов / 16 недель</p>
+              </div>
+              <h3>Верстка Html, Css, Git <br />+ Js, React.js</h3>
+              <a href="" class="btn btn--link"
+                >Программа <span>полного</span> курса</a
+              >
+            </div>
+            <div class="group__item">
+              <div class="group__item-head">
+                <p>6 000 ₴</p>
+                <p>40 часов / 7 недель</p>
+              </div>
+              <h3>Верстка Html, Css, Git</h3>
+              <a href="" class="btn btn--link">Программа модуля</a>
+            </div>
+            <div class="group__item">
+              <div class="group__item-head">
+                <p>8 000 ₴</p>
+                <p>56 часов / 10 недель</p>
+              </div>
+              <h3>JS + React.js</h3>
+              <a href="" class="btn btn--link">Программа модуля</a>
+            </div>
+          </div>
+          <h2>Индивидуальные занятия</h2>
+          <div class="group__item group__item--individual">
+            <div class="group__item-head">
+              <p>450 ₴ / 1 час</p>
+            </div>
+            <h3>Индивидуальное обучение</h3>
+            <a href="" class="btn btn--link">Программа обучения</a>
+          </div>
+        </div>
+      </section>
+      <section class="learn">
+        <div class="container">
+          <h2>Вы научитесь</h2>
+          <ul class="learn__list">
+            <li class="learn__item border">
+              Cоздавать полноценные веб-страницы с нуля
+            </li>
+            <li class="learn__item border">
+              Работать в команде (используя систему контроля версий Git)
+            </li>
+            <li class="learn__item border">Разрабатывать логику сайта</li>
+            <li class="learn__item border">
+              Внедрять интерактивные элементы на страницу с помощью JS
+            </li>
+            <li class="learn__item border">Настраивать SEO оптимизацию</li>
+            <li class="learn__item border">
+              Создавать веб-приложения на JS и React
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <h2>Преимущества курса</h2>
+          <div class="advantages__wrapper">
+            <div class="advantages__item">
+              <span class="icon icon-auto_fix"></span>
+              <p class="advantages__item-caption">Актуальная информация</p>
+              <p class="advantages__item-descr">
+                никаких устаревших технологий и тем
+              </p>
+            </div>
+            <div class="advantages__item">
+              <span class="icon icon-school"></span>
+              <p class="advantages__item-caption">
+                Обучение подкрепляется практикой
+              </p>
+              <p class="advantages__item-descr">
+                никаких презентаций с сухой теорией
+              </p>
+            </div>
+            <div class="advantages__item">
+              <span class="icon icon-question_answer"></span>
+              <p class="advantages__item-caption">
+                Постоянная поддержка преподавателя
+              </p>
+              <p class="advantages__item-descr">
+                вне занятий в решении интересующих вас вопросов
+              </p>
+            </div>
+            <div class="advantages__item">
+              <span class="icon icon-group_work"></span>
+              <p class="advantages__item-caption">Помощь преподавателя</p>
+              <p class="advantages__item-descr">группы по 6-8 человек</p>
+            </div>
+            <div class="advantages__item">
+              <span class="icon icon-groups"></span>
+              <p class="advantages__item-caption">Живое общение</p>
+              <p class="advantages__item-descr">
+                все занятия в режиме реального времени
+              </p>
+            </div>
+            <div class="advantages__item">
+              <span class="icon icon-description"></span>
+              <p class="advantages__item-caption">
+                Оформите резюме и портфолио
+              </p>
+              <p class="advantages__item-descr">
+                для дальнейшего трудоустройства
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <h2>Преподаватель</h2>
+          <div class="about__wrapper">
+            <img
+              src="images/dima_koval.jpg"
+              width="320"
+              height="320"
+              alt="преподаватель frontend курсов Codehouse"
+              class="about__img"
+            />
+            <div class="about__content about__content--top">
+              <p class="about__name">Дмитрий Коваль</p>
+              <p class="about__descr">
+                4 года разработчик | 2 года преподаватель
+              </p>
+            </div>
+            <div class="about__content about__content--bottom">
+              <p>
+                Привет! Я создал этот курс для тех, кто хочет изучать
+                качественную и актуальную информацию, постоянно подкрепляя
+                знания практикой. Для лучших результатов обучение проходит в
+                небольших группах с моей круглосуточной поддержкой.
+              </p>
+              <br />
+              <p>
+                В конце обучения я лично пообщаюсь отдельно с каждым учеником,
+                где мы можем обсудить твои дальнейшие действия в развитии и
+                поиске работы, дам советы и отвечу на интересующие вопросы.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="container">
+          <div class="feedback__head">
+            <h2>Отзывы</h2>
+            <a href="#" class="btn">Смотреть все</a>
+          </div>
+          <div class="feedback__slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="feedback__item">
+                  <div class="feedback__item-head">
+                    <p class="feedback__item-name">Роман Борд</p>
+                    <a href="#" class="feedback__item-link">facebook</a>
+                  </div>
+                  <div class="feedback__item-rating">
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                  </div>
+                  <p>
+                    Привет! Я создал этот курс для тех, кто хочет стать изучать
+                    качественную и актуальную информацию, подкрепляя знания
+                    практикой. Для лучших результатов обучение проходит в
+                    небольших группах с моей круглосуточной поддержкой. с моей
+                    круглоce...
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="feedback__item">
+                  <div class="feedback__item-head">
+                    <p class="feedback__item-name">Роман Борд</p>
+                    <a href="#" class="feedback__item-link">facebook</a>
+                  </div>
+                  <div class="feedback__item-rating">
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                  </div>
+                  <p>
+                    Привет! Я создал этот курс для тех, кто хочет стать изучать
+                    качественную и актуальную информацию, подкрепляя знания
+                    практикой.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="feedback__item">
+                  <div class="feedback__item-head">
+                    <p class="feedback__item-name">Роман Борд</p>
+                    <a href="#" class="feedback__item-link">facebook</a>
+                  </div>
+                  <div class="feedback__item-rating">
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                  </div>
+                  <p>
+                    Привет! Я создал этот курс для тех, кто хочет стать изучать
+                    качественную и актуальную информацию, подкрепляя знания
+                    практикой.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="feedback__item">
+                  <div class="feedback__item-head">
+                    <p class="feedback__item-name">Роман Борд</p>
+                    <a href="#" class="feedback__item-link">facebook</a>
+                  </div>
+                  <div class="feedback__item-rating">
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                  </div>
+                  <p>
+                    Привет! Я создал этот курс для тех, кто хочет стать изучать
+                    качественную и актуальную информацию, подкрепляя знания
+                    практикой. Для лучших результатов обучение проходит в
+                    небольших группах с моей круглосуточной поддержкой. с моей
+                    круглоce...
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="feedback__item">
+                  <div class="feedback__item-head">
+                    <p class="feedback__item-name">Роман Борд</p>
+                    <a href="#" class="feedback__item-link">facebook</a>
+                  </div>
+                  <div class="feedback__item-rating">
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                    <span class="icon-star"></span>
+                  </div>
+                  <p>
+                    Привет! Я создал этот курс для тех, кто хочет стать изучать
+                    качественную и актуальную информацию, подкрепляя знания
+                    практикой. Для лучших результатов обучение проходит в
+                    небольших группах с моей круглосуточной поддержкой. с моей
+                    круглоce...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="feedback__btn-wrapper">
+            <div
+              class="swiper-button-prev btn btn--slider btn--slider-prev"
+            ></div>
+            <div class="swiper-button-next btn btn--slider"></div>
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <h2>Вопросы</h2>
+          <div class="questions__wrapper">
+            <div class="questions__item">
+              <div class="questions__item-head">
+                <h3 class="questions__item-title">Что такое frontend?</h3>
+                <div class="questions__item-plus"></div>
+              </div>
+              <p class="questions__item-text">
+                Занятия проходят в Zoom, я демонстрирую вам свой экран,
+                объяснаяю новый материал, показываю на примерах как это
+                работает, для лучшего понимания вы повторяете код за мной. Будет
+                постоянная работа с реальными небольшими проектами. После
+                занятия я буду присылать запись урока и домашнее задание по
+                пройденному материалу. У каждой группы будет организован чат в
+                телеграмме для коммуникации вне занятия.
+              </p>
+            </div>
+            <div class="questions__item">
+              <div class="questions__item-head">
+                <h3 class="questions__item-title">
+                  Когда начинается обучение?
+                </h3>
+                <div class="questions__item-plus"></div>
+              </div>
+              <p class="questions__item-text">
+                Занятия проходят в Zoom, я демонстрирую вам свой экран,
+                объяснаяю новый материал, показываю на примерах как это
+                работает, для лучшего понимания вы повторяете код за мной. Будет
+                постоянная работа с реальными небольшими проектами. После
+                занятия я буду присылать запись урока и домашнее задание по
+                пройденному материалу. У каждой группы будет организован чат в
+                телеграмме для коммуникации вне занятия. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Ipsum, reiciendis labore
+                porro cumque quisquam ipsam nobis sequi, assumenda fugit dolorum
+                vero consequuntur vitae non officiis unde est, aliquid at
+                aliquam. Dolore molestiae, laudantium commodi doloribus beatae,
+                doloremque quae voluptatem illo deleniti iusto placeat deserunt
+                est, ipsa perferendis iure quaerat! Impedit.
+              </p>
+            </div>
+            <div class="questions__item">
+              <div class="questions__item-head">
+                <h3 class="questions__item-title">
+                  Что мне нужно для успешного прохождения курса?
+                </h3>
+                <div class="questions__item-plus"></div>
+              </div>
+              <p class="questions__item-text">
+                Занятия проходят в Zoom, я демонстрирую вам свой экран,
+                объяснаяю новый материал, показываю на примерах как это
+                работает, для лучшего понимания вы повторяете код за мной. Будет
+                постоянная работа с реальными небольшими проектами. После
+                занятия я буду присылать запись урока и домашнее задание по
+                пройденному материалу. У каждой группы будет организован чат в
+                телеграмме для коммуникации вне занятия. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Veniam aperiam ipsum
+                quibusdam, dolores saepe dolorum illum alias porro illo odio
+                officiis id esse voluptas necessitatibus, nesciunt voluptatibus,
+                autem molestias. Sed.
+              </p>
+            </div>
+            <div class="questions__item">
+              <div class="questions__item-head">
+                <h3 class="questions__item-title">
+                  Как происходит оплата и можно ли вернуть деньги если курс не
+                  подошел?
+                </h3>
+                <div class="questions__item-plus"></div>
+              </div>
+              <p class="questions__item-text">
+                Занятия проходят в Zoom, я демонстрирую вам свой экран,
+                объяснаяю новый материал, показываю на примерах как это
+                работает, для лучшего понимания вы повторяете код за мной. Будет
+                постоянная работа с реальными небольшими проектами. После
+                занятия я буду присылать запись урока и домашнее задание по
+                пройденному материалу. У каждой группы будет организован чат в
+                телеграмме для коммуникации вне занятия. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Fugit consequatur odio at
+                voluptas molestiae, hic facere a nihil inventore exercitationem
+                esse placeat magnam consequuntur qui maxime eaque sed pariatur
+                eveniet consectetur laborum itaque eum deserunt. Distinctio
+                molestias dolorem ex placeat beatae earum voluptatibus
+                consequuntur veniam culpa ea labore fugiat ducimus, asperiores,
+                repudiandae id quam ullam quo assumenda totam dignissimos nemo!
+              </p>
+            </div>
+            <div class="questions__item">
+              <div class="questions__item-head">
+                <h3 class="questions__item-title">Как проходят занятия?</h3>
+                <div class="questions__item-plus"></div>
+              </div>
+              <p class="questions__item-text">
+                Занятия проходят в Zoom, я демонстрирую вам свой экран,
+                объяснаяю новый материал, показываю на примерах как это
+                работает, для лучшего понимания вы повторяете код за мной. Будет
+                постоянная работа с реальными небольшими проектами. После
+                занятия я буду присылать запись урока и домашнее задание по
+                пройденному материалу. У каждой группы будет организован чат в
+                телеграмме для коммуникации вне занятия. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Nam impedit quaerat rem esse
+                nihil in ea nisi distinctio amet aut.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="schedule">
+        <div class="container">
+          <div class="schedule__wrapper border">
+            <h2>График занятий</h2>
+            <div class="schedule__inner">
+              <div class="schedule__item">
+                <p class="schedule__item-caption">1 вариант</p>
+                <ul class="schedule__item-list">
+                  <li><span>понедельник</span><span>19:00 - 21:00</span></li>
+                  <li><span>среда</span><span>19:00 - 21:00</span></li>
+                  <li><span>суббота</span><span>10:00 - 12:00</span></li>
+                </ul>
+              </div>
+              <div class="schedule__divider"></div>
+              <div class="schedule__item">
+                <p class="schedule__item-caption">2 вариант</p>
+                <ul class="schedule__item-list">
+                  <li><span>вторник</span><span>19:00 - 21:00</span></li>
+                  <li><span>четверг</span><span>19:00 - 21:00</span></li>
+                  <li><span>воскресенье</span><span>10:00 - 12:00</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a href="/" class="logo">
+            <img
+              src="icons/codehouse.svg"
+              width="170"
+              height="24"
+              alt="логотип CodeHouse Курсы Frontend Обучение фронтенд"
+              class="logo__img"
+            />
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item has-submenu">
+                <span class="menu__link">Программа</span>
+                <ul class="submenu">
+                  <li class="submenu__item">
+                    <a href="full-course.html" class="submenu__link"
+                      >Полный курс</a
+                    >
+                  </li>
+                  <li class="submenu__item">
+                    <a href="html-css.html" class="submenu__link"
+                      >Верстка Html, Css, Git</a
+                    >
+                  </li>
+                  <li class="submenu__item">
+                    <a href="js-react.html" class="submenu__link"
+                      >JS + React.js</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a href="feedback.html" class="menu__link">Отзывы</a>
+              </li>
+              <li class="menu__item">
+                <a href="questions.html" class="menu__link">Вопросы</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <a href="tel:+380733202836" class="contacts__tel">073 320 2836</a>
+            <ul class="language has-submenu">
+              <li class="language__item">
+                <span class="language__link">Рус</span>
+                <ul class="submenu">
+                  <li class="language__item">
+                    <a href="index-uk.html" class="language__link">Укр</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <form id="form-modal" action="#" class="form form--modal form--js">
+      <p class="form__title">Получить бесплатную консультацию</p>
+      <input
+        type="text"
+        name="name"
+        placeholder="Ваше имя"
+        class="form__input required"
+      />
+      <input
+        type="text"
+        name="phone"
+        value="+380"
+        placeholder="Ваш телефон"
+        class="form__input required"
+      />
+      <button type="submit" class="btn btn--form">Перезвоните мне</button>
+      <div class="form__close"></div>
+    </form> -->
+    <div class="form form--modal succes">
+      <p class="form__title">Отправлено</p>
+      <p class="form__text">
+        Спасибо! Вам скоро перезвонят. Пока можете<br />ознакомиться с графиком
+        занятий
+      </p>
+      <a href="#" class="btn btn--form">Смотреть график занятий</a>
+      <div class="form__close"></div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

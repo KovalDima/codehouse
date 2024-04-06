@@ -1,0 +1,27 @@
+.burger {
+  display: none;
+  width: 30px;
+  span {
+    display: block;
+    height: 3px;
+    background: $white;
+    margin-bottom: 6px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &.active {
+    span {
+      margin-bottom: 0;
+      &:first-child {
+        transform: rotate(-45deg) translateX(-2px);
+      }
+      &:nth-child(2) {
+        display: none;
+      }
+      &:last-child {
+        transform: rotate(45deg) translateX(-2px);
+      }
+    }
+  }
+}
